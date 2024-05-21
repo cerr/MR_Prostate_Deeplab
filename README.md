@@ -3,13 +3,13 @@ This repository provides pre-trained deep learning models for segmenting the cli
 of prostate patients. It operates on axial T2w-MRI scans acquired for this purpose in the head-first supine (HFS) orientation.  
   
 Segmented structures:  
-	* CTV  
-	* Bladder  
-	* Penile bulb  
-	* Rectum  
-	* Urethra foley  
-	* Rectal spacer  
-	* Large bowel  
+* CTV  
+* Bladder  
+* Penile bulb  
+* Rectum  
+* Urethra foley  
+* Rectal spacer  
+* Large bowel  
   
 ## Installing dependencies  
 Dependencies specified in `requirements.txt` may be installed as follows:  
@@ -18,7 +18,7 @@ Dependencies specified in `requirements.txt` may be installed as follows:
 conda create -y --name MR_prostate_deeplab python=3.5
 conda activate MR_prostate_deeplab  
 pip install -r requirements.txt  
-````  
+````
   
 ## Applying the model  
 ```  
@@ -43,4 +43,5 @@ By downloading the software you are agreeing to the following terms and conditio
     YOU MAY NOT DISTRIBUTE COPIES of this software, or copies of software derived from this software, to others outside your organization without specific prior written permission from the CERR development team except where noted for specific software products.
 
     All Technology and technical data delivered under this Agreement are subject to US export control laws and may be subject to export or import regulations in other countries. You agree to comply strictly with all such laws and regulations and acknowledge that you have the responsibility to obtain such licenses to export, re-export, or import as may be required after delivery to you.
+
 
