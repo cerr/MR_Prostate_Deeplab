@@ -24,9 +24,12 @@ pip install -r requirements.txt
 ```  
 python run_inference_nii.py <input_nii_directory> <output_nii_directory>  
 ```
+A Jupyter [notebook](https://github.com/cerr/pyCERR-Notebooks/blob/main/autosegment_MR_Prostate_OARs.ipynb) demonstrating how to run the model and visualize auto-segmented structures is provided.
+
   
 ## Citing this work
-Elguindi, S., Zelefsky, M. J., Jiang, J., Veeraraghavan, H., Deasy, J. O., Hunt, M. A., & Tyagi, N. (2019). Deep learning-based auto-segmentation of targets and organs-at-risk for magnetic resonance imaging only planning of prostate radiotherapy. *Physics and imaging in radiation oncology, 12*, 80-86.  
+You may publish material involving results produced using this software provided that you reference the following
+* Elguindi, S., Zelefsky, M. J., Jiang, J., Veeraraghavan, H., Deasy, J. O., Hunt, M. A., & Tyagi, N. (2019). Deep learning-based auto-segmentation of targets and organs-at-risk for magnetic resonance imaging only planning of prostate radiotherapy. *Physics and imaging in radiation oncology, 12*, 80-86.  
   
   
 ## License
